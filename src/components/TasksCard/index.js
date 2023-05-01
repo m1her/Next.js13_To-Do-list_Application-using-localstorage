@@ -13,7 +13,7 @@ const TasksCard = () => {
     });
 
     if (found) {
-      setTASKS(found.Tasks);
+      setTASKS(found?.Tasks);
     }
   }, []);
 
@@ -23,7 +23,7 @@ const TasksCard = () => {
       const found = Lists.find((obj) => {
         return obj.isSelected === true;
       });
-      setTASKS(found.Tasks);
+      setTASKS(found?.Tasks);
     });
   }, []);
 

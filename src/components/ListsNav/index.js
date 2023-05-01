@@ -51,7 +51,7 @@ const ListsNav = () => {
     const found = List.find((obj) => {
       return obj.isSelected === true; //to update selected item's css and display its tasks
     });
-    setSelectedItem(found.id);
+    setSelectedItem(found?.id);
     if (List) {
       setLists(List);
     } else {
