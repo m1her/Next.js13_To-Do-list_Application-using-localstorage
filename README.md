@@ -37,7 +37,7 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 ## Application Overview 
 
-![project UI]([http://url/to/img.png](https://imgur.com/CDxlj0O))
+![preview](https://user-images.githubusercontent.com/106315157/235451093-95a4b4c1-f4f8-4678-a8d5-ca9a19a8ca0d.png)
 
 # Discription
 
